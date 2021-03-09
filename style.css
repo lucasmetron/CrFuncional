@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+.conteiner{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    
+    
+}
+
+.navBar{
+    display: flex;
+    margin: 25px;
+
+}
+
+
+.logoNav{
+    width: 125px;
+    
+}
+
+.bar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: calc(10% - 50px);
+    
+}
+.espaco{
+    margin-left: 55px;
+    color: yellow;
+    font-weight: 900;
+    letter-spacing: 5px;
+    font-size: 1em;
+}
