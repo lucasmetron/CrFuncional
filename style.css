@@ -17,9 +17,12 @@ a{
 
 body{
     background-color: black;
-    background-image: url(./images/fundo\ inteiro_Prancheta\ 1.png);
-    background-size: cover;
-    
+    background-image: url(./images/fundoCorda1.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 100%;
+    height: 100%;
 }
 
 .conteiner{
@@ -37,7 +40,7 @@ body{
 
 
 .logoNav{
-    width: 125px;
+    width: 130px;
     
 }
 
@@ -58,17 +61,18 @@ body{
     font-size: 1em;
 }
 
-/*                 Sobre                             */
+/*------------------------------------- SOBRE -------------------------------------------*/
 
 .sobre{
     display: flex;
     width: 100%;
     height: 500px;
     justify-content: space-around;
-    align-items: center;
-   
-     
+    align-items: flex-end;
+    text-align: left;
+    justify-content: flex-start; 
 }
+
 
 .homemAgachamento{
     width: 500px;
@@ -78,22 +82,23 @@ body{
 .treine{
     color: yellow;
     font-weight: 900;
-    font-size: 4em;
-    font-family: 'Anton', sans-serif;
-    letter-spacing: 2px;
+    font-size: 6rem;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 20px;
 }
 
 .treine2{
-    font-family: 'Anton', sans-serif;
-    font-size: 1.2em;
-    letter-spacing: 2px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 0px;
 }
 
 .sobreIMG{
     width: 800px;
 }
 
-/*                        PLANOS                 */
+/*------------------------------------- PLANOS -------------------------------------------*/
+
 .planos{
     display: flex;
     justify-content: space-evenly;
@@ -123,6 +128,11 @@ body{
     font-size: 1.2em;
 }
 
+.inscrevaSe:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
 .retPlanos h1{
     font-size: 1.8em;
     color: white;
@@ -137,3 +147,18 @@ body{
     
 }
 
+/*------------------------------------- CONTATO -------------------------------------------*/
+
+
+
+
+/*-------------------------------------FOOTER-------------------------------------------*/
+
+footer{
+    margin-top: 15px;
+    display: flex;
+    height: 90px;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
