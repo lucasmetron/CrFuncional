@@ -1,0 +1,30 @@
+.navBar {
+    display: flex;
+    padding: 35px;
+}
+
+.logoNav img {
+    width: 130px;
+}
+
+.bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: calc(10% - 50px);
+}
+
+.bar a {
+    padding: 15px;
+    font-weight: 900;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffff00;
+}
+
+.bar a:hover {
+    background: #c4c40f;
+    color: #ffffff;
+}

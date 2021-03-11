@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: black;
+    background-image: url(./images/fundoCorda1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 100%;
+    height: 100%;
+}
+
+.conteiner {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+.wpp {
+    width: 90px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

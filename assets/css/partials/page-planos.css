@@ -1,0 +1,45 @@
+/*------------------------------------- PLANOS -------------------------------------------*/
+
+.planos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.retPlanos {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(251, 243, 21, 0.8);
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.inscrevaSe {
+    display: inline-block;
+    position: relative;
+    background-color: rgb(39, 38, 38, 0.8);
+    padding: 15px 50px 15px 50px;
+    bottom: 0;
+    font-size: 1.2em;
+}
+
+.inscrevaSe:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.retPlanos h1 {
+    font-size: 1.8em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.retPlanos h4 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: black
+}
