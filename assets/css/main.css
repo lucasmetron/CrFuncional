@@ -58,6 +58,12 @@ nav ul {
         width: 55px;
     }
 
+    body {
+
+        background-position-x: -600px;
+
+    }
+
 }
 /*@media screen and (min-width: 300vw) and (max-width: 699vw){
 

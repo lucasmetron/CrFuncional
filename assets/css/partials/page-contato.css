@@ -51,3 +51,12 @@ button{
 
     
 }
+
+
+@media screen  and (max-width: 360px){
+
+    iframe{
+        width: 280px;
+        height: 230px;
+    }
+}
