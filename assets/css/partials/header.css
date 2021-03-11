@@ -1,0 +1,48 @@
+.navBar {
+    display: flex;
+    padding: 0px;
+}
+
+.logoNav img {
+    width: 130px;
+}
+
+.bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    /*margin-right: calc(10% - 50px);*/
+}
+
+.bar a {
+    padding: 15px;
+    font-weight: 900;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffff00;
+}
+
+
+
+.bar a:hover {
+    background: #c4c40f;
+    color: #ffffff;
+}
+
+@media screen  and (max-width: 550px){
+
+    .logoNav img {
+        width: 90px;
+    }
+
+    .bar a {
+        padding: 5px;
+        font-size: 0.8rem;
+  
+    }
+    
+    
+}

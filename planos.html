@@ -2,25 +2,26 @@
 <html lang="pt">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CR Funcional</title>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CR Funcional</title>
-        <link rel="stylesheet" href="./style.css">
-        <link rel="icon" href="./images/LOGO2_Prancheta 1.png">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/partials/header.css">
+    <link rel="stylesheet" href="assets/css/partials/page-planos.css">
+    <link rel="stylesheet" href="assets/css/partials/footer.css">
 
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/images/LOGO2_Prancheta_1.png">
 
-    </head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap" rel="stylesheet">
 
 </head>
 
@@ -28,23 +29,20 @@
     <div class="conteiner">
 
         <header class="navBar">
-
-            <img class="logoNav" src="./images/LOGO2_Prancheta 1.png" alt="Cross Fit">
-
-            <div class="bar">
-                <a href="./index.html">
-                    <div class="espaco">SOBRE</div>
-                </a>
-                <a href="./planos.html">
-                    <div class="espaco">PLANOS</div>
-                </a>
-                <a href="./contato.html">
-                    <div class="espaco">CONTATO</div>
-                </a>
+            <div class="logoNav">
+                <img src="assets/images/LOGO2_Prancheta_1.png" alt="Cross Fit">
             </div>
 
+            <div class="bar">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html" class="active">SOBRE</a></li>
+                        <li><a href="./planos.html">PLANOS</a></li>
+                        <li><a href="./contato.html">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-
 
         <section class="planos">
 
@@ -59,10 +57,7 @@
                     target="_blanck">
                     <p class="inscrevaSe">Inscreva-se</p>
                 </a>
-
             </div>
-
-
 
             <div class="retPlanos">
                 <h1>PLANO 2</h1><br>
@@ -104,27 +99,24 @@
 
         </section>
 
-
-
-
-
-
         <div>
             <a href="https://api.whatsapp.com/send?phone=5561991963981&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20mais%20sobre%20a%20DuoForce."
-                target="_blanck"><img class="wpp" src="./images/wpp2.png" alt="whatsapp"> </a>
+                target="_blanck"><img class="wpp" src="assets/images/wpp2.png"> </a>
         </div>
     </div>
 
     <footer>
-        <div>
-            <p>© Copyright - CR Funcional | Lucas Rosa ;D</p>
-            <a href=""><img src="./images/instagram.png" alt="instagram"></a>
-            <a href=""><img src="./images/facebook.png" alt="facebook"></a>
-            <a href=""><img src="./images/youtube .png" alt="youtube"></a>
+            
+        <div class="socials">
+            <a href=""><img src="assets/images/instagram.png" alt="instagram"></a>
+            <a href=""><img src="assets/images/facebook.png" alt="facebook"></a>
+            <a href=""><img src="assets/images/youtube .png" alt="youtube"></a>
         </div>
+        <p>© Copyright - CR Funcional | Lucas Rosa ;D</p>
+
     </footer>
 
-    <script src="./script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,38 @@
+footer{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer img{
+    width: 30px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+footer p{
+    display: block;
+}
+
+.socials{
+    display: inline-block;
+}
+
+
+@media (max-width: 550px){
+
+    footer{
+        margin-top: 0;
+    }
+
+    footer p{
+    margin-top: 0;
+    font-size: 0.8em;
+    }
+
+}
