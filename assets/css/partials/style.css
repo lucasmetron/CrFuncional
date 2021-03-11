@@ -1,7 +1,8 @@
-@keyframes mymove {
-    from {left: -800px;}
+@keyframes sobre {
+    from {left: -1000px;}
     to {left: 0;}
   }
+
 
 
 .sobre{
@@ -15,9 +16,8 @@
     justify-content: flex-start; 
     margin-top: 50px;
 
-    animation-delay: -10s;
     position: relative;
-    animation: mymove 5s;
+    animation: sobre 2s;
 
     
 }
@@ -63,9 +63,11 @@
 
 @media screen  and (max-width: 420px){
 
-    .sobre{
-      
-    }
+    @keyframes sobre {
+        from {left: -500px;}
+        to {left: 0;}
+      }
+ 
 
     .ma-bottom {
         margin-bottom: 30px ;

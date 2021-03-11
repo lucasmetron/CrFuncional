@@ -1,9 +1,17 @@
+@keyframes contato {
+    from {left: -1800px;}
+    to {left: 0;}
+  }
+
 .contato{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     color: white;
+
+    position: relative;
+    animation: contato 3s;
 }
 
 .notifica{
@@ -57,6 +65,22 @@ button:hover{
     }
 
     
+}
+
+@media (max-width:420px){
+
+    @keyframes contato {
+        from {left: -500px;}
+        to {left: 0;}
+      }
+
+
+      .planos{
+ 
+    
+        position: relative;
+        animation: contato 3s;
+    }
 }
 
 

@@ -1,9 +1,16 @@
+@keyframes planos {
+    from {left: -1500px;}
+    to {left: 0;}
+  }
+
 .planos{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
 
+    position: relative;
+    animation: planos 3s;
 }
 .retPlanos{
     
@@ -44,4 +51,20 @@
     margin-bottom: 10px;
     color: black
     
+}
+
+@media (max-width:420px){
+
+    @keyframes planos {
+        from {left: -500px;}
+        to {left: 0;}
+      }
+
+
+      .planos{
+ 
+    
+        position: relative;
+        animation: planos 3s;
+    }
 }
