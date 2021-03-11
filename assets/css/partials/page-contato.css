@@ -1,0 +1,36 @@
+.contato{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.notifica{
+    padding: 50px;
+    width: 400px;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1em;
+    color: black;
+    border: 2px;
+}
+
+button{
+    margin-top: 20px;
+    color: black;
+    width: 90%;
+    padding: 8px;
+    background-color: yellow;
+    font-size: 15px;
+    border: none;
+}
+
+.endereco{
+    padding: 50px;
+    width: 400px;
+}
