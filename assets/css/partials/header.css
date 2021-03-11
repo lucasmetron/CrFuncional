@@ -12,8 +12,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
-    /*margin-right: calc(10% - 50px);*/
+
 }
 
 .bar a {
