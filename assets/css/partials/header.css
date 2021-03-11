@@ -30,6 +30,7 @@
 .bar a:hover {
     background: #c4c40f;
     color: #ffffff;
+    transition:  1s;
 }
 
 @media screen  and (max-width: 550px){

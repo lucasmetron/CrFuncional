@@ -23,11 +23,18 @@ input{
 button{
     margin-top: 20px;
     color: black;
-    width: 90%;
+    width: 50%;
     padding: 8px;
-    background-color: yellow;
+    background-color: rgb(251,245,31);
     font-size: 15px;
     border: none;
+    font-weight: 900;
+}
+
+button:hover{
+    background: #c4c40f;
+    transition: 0.5s;
+    color: white;
 }
 
 .endereco{
