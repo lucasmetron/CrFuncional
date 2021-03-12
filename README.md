@@ -14,10 +14,10 @@
 
 
 ### Front End para desktop (responsível para monitores até 1920 px)
-![Tela inicial](./images/desktop1.gif)
+![Tela inicial](./assets/gifs/crFuncionalDesktop.gif)
 
 ### Front End para celular
-![Tela Inicial](./images/celular1.gif)
+![Tela Inicial](./assets/gifs/mobile.gif)
 
 ### Veja o projeto você mesmo! Acesse: https://dazzling-colden-886a52.netlify.app/
 
