@@ -33,6 +33,18 @@
     transition:  1s;
 }
 
+
+@media screen and (min-width: 1600px){
+
+    .logoNav img {
+        width: 180px;
+    }
+
+    .bar a{
+        font-size: 1.5em;
+    }
+}
+
 @media screen  and (max-width: 550px){
 
     .logoNav img {

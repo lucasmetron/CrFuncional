@@ -23,6 +23,17 @@ footer p{
     display: inline-block;
 }
 
+@media screen and (min-width: 1600px){
+    footer p{
+        font-size: 1.3em;
+    }
+
+    footer img{
+        width: 50px;
+    }
+
+}
+
 
 @media (max-width: 550px){
 
