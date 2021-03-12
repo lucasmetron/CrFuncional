@@ -6,6 +6,8 @@
 
 #### * Este projeto pode ser minha primeira venda como freela ;D (torçam por mim).
 
+#### * Neste projeto convidei
+
 ### - Nesta aplicação foram usados as seguintes tecnologias:
 
 #### *HTML.
