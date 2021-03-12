@@ -52,7 +52,6 @@ button:hover{
 
 @media screen  and (min-width: 1600px){
     .contato{
-        background-color: tomato;
         margin-bottom: 70px;
     }
     .contato h1 {
