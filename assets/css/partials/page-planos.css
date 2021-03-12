@@ -43,14 +43,36 @@
     font-size: 1.3em;
     color: white;
     margin-bottom: 10px;
-    
 }
 
 .retPlanos h4{
     font-size: 1em;
     margin-bottom: 10px;
-    color: black
-    
+    color: black;
+    font-weight: 900;
+}
+
+@media screen and (min-width: 1600px){
+
+    .retPlanos h1{
+        font-size: 2em;;
+    }
+
+    .retPlanos h4{
+        font-size: 1.8em;;
+    }
+    .retPlanos{
+        width: 300px;
+        margin-bottom: 70px;
+    }
+
+    .inscrevaSe{
+        background-color: rgb(39, 38, 38, 0.8);
+        padding: 15px 40px 15px 40px;
+        bottom: 0;
+        font-size: 1.5em;
+    }
+
 }
 
 @media (max-width:420px){
@@ -60,6 +82,9 @@
         to {left: 0;}
       }
 
+      body{
+          background-position-x: -800px;
+      }
 
       .planos{
  

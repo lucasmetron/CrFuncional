@@ -37,6 +37,20 @@
     letter-spacing: 0px;
 }
 
+@media screen and (min-width: 1600px){
+    .sobre{
+     
+        height: 550px;
+    }
+
+    .treine{
+        font-size: 5.5em;
+    }
+
+    .treine2{
+        font-size: 3.5em;
+    }
+}
 
 
 @media screen and (max-width: 700px){

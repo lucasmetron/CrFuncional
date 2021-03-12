@@ -50,6 +50,41 @@ button:hover{
     width: 400px;
 }
 
+@media screen  and (min-width: 1600px){
+    .contato{
+        background-color: tomato;
+        margin-bottom: 70px;
+    }
+    .contato h1 {
+        font-size: 2em;
+    }
+
+    .contato p {
+        font-size: 1.3em;
+    }
+    
+    .notifica{
+        
+        width: 500px;
+        height: 300px;
+    }
+
+    input{
+        padding: 20px;
+    }
+
+    button{
+        font-size: 25px;
+    }
+
+    iframe{
+        width: 500px;
+        height: 400px;
+    }
+    
+}
+
+
 @media screen  and (max-width: 700px){
     .sobre{
         position: relative;
