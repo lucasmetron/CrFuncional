@@ -6,7 +6,7 @@
 
 #### * Este projeto pode ser minha primeira venda como freela ;D (torçam por mim).
 
-#### * Neste projeto convidei
+#### * Neste projeto convidei meu amigo andrealvesz, para juntos treinarmos o trabalho em equipe e também crecermos em nossas skills.
 
 ### - Nesta aplicação foram usados as seguintes tecnologias:
 
