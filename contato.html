@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Duo Force</title>
+    <title>CR Funcional</title>
 
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/partials/header.css">
-    <link rel="stylesheet" href="assets/css/partials/page-local.css">
+    <link rel="stylesheet" href="assets/css/partials/page-contato.css">
+    <link rel="stylesheet" href="assets/css/partials/footer.css">
+
+    <link rel="icon" href="assets/images/LOGO2_Prancheta_1.png">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
@@ -23,8 +25,9 @@
 
 </head>
 
+
 <body>
-    <div class="conteiner">
+    <div id="tela" class="conteiner">
 
         <header class="navBar">
             <div class="logoNav">
@@ -36,7 +39,7 @@
                     <ul>
                         <li><a href="./index.html" class="active">SOBRE</a></li>
                         <li><a href="./planos.html">PLANOS</a></li>
-                        <li><a href="./local.html">LOCALIZAÇÃO</a></li>
+                        <li><a href="./contato.html">CONTATO</a></li>
                     </ul>
                 </nav>
             </div>
@@ -45,20 +48,42 @@
 
         <section class="contato">
 
+            <div class="notifica">
+                <h1>CADASTRE SEU CONTATO</h1><br>
+                <P>Ficou com alguma dúvida? Entraremos em contato com você!</P>
 
+                <form method="GET" action="">
+                    <input type="text" placeholder="Nome"><br>
+                    <input type="email" placeholder="E-mail"><br>
+                    <input type="number" placeholder="Telefone"><br>
 
+                </form>
+
+                <button onclick="cadastrado()">Enviar</button>
+            </div>
+
+            <div class="endereco">
+                <h1>LOCALIZAÇÃO</h1><br>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239.9055707528089!2d-48.05383780782361!3d-15.83086911244446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a32ef0d67592b%3A0x30ebe1ea6b062783!2sEdif%C3%ADcio%20Theodora!5e0!3m2!1spt-BR!2sbr!4v1615406324944!5m2!1spt-BR!2sbr"
+                    width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <p>Taguatinga centro C2 CEP:72010-020</p>
+            </div>
         </section>
 
-    
         <div>
             <a href="https://api.whatsapp.com/send?phone=5561991963981&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20mais%20sobre%20a%20DuoForce."
                 target="_blanck"><img class="wpp" src="assets/images/wpp2.png"> </a>
         </div>
+
     </div>
 
     <footer>
         <div>
-            <p>© Copyright - CR Force | Lucas Rosa ;D</p>
+            <p>© Copyright - CR Funcional | Lucas Rosa ;D</p>
+            <a href=""><img src="assets/images/instagram.png" alt="instagram"></a>
+            <a href=""><img src="assets/images/facebook.png" alt="facebook"></a>
+            <a href=""><img src="assets/images/youtube .png" alt="youtube"></a>
         </div>
     </footer>
 

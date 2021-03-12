@@ -1,32 +1,34 @@
-.sobre {
+.sobre{
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 300px;
     justify-content: space-around;
     align-items: flex-end;
     text-align: left;
-    justify-content: flex-start;
+    justify-content: flex-start; 
+    margin-top: 50px;
 }
 
-.homemAgachamento {
+
+.homemAgachamento{
     width: 500px;
+    
 }
 
-.treine {
+.treine{
     color: yellow;
     font-weight: 900;
-    font-size: 6rem;
+    font-size: 4rem;
     font-family: 'Nunito Sans', sans-serif;
     letter-spacing: 20px;
 }
 
-.treine2 {
+.treine2{
     font-family: 'Nunito', sans-serif;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     letter-spacing: 0px;
 }
 
-.sobreIMG {
+.sobreIMG{
     width: 800px;
 }
-
