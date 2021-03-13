@@ -45,7 +45,7 @@
     transition: 1s ease;
 }
 
-#hamburguer:not(:checked) ~ label .hamburguer::after {
+#hamburguer:checked ~ label .hamburguer::after {
     transform: rotate(225deg);
     width: 70%;
     height: 10%;
@@ -53,7 +53,7 @@
     left: 15%;
 }
 
-#hamburguer:not(:checked) ~ label .hamburguer::before {
+#hamburguer:checked ~ label .hamburguer::before {
     transform: rotate(-405deg);
     width: 70%;
     height: 10%;
@@ -107,7 +107,7 @@
     .menu {
         position: absolute;
         top: 0;
-        right: -100%;
+        right: 0;
         z-index: 998;
 
         height: 100vh;
@@ -124,7 +124,7 @@
     }
 
     .menu.active {
-        right: 0;
+        right: -100%;
     }
     
 }
