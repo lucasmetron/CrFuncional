@@ -58,6 +58,7 @@
     .sobre{
         height: 550px;
         margin-top: 0;
+        margin-bottom: 60px;
         justify-content: center;
         align-items: center;
     }

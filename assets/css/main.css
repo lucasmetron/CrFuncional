@@ -22,17 +22,6 @@ body {
     padding: 25px;
 }
 
-nav ul,
-nav li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul {
-    display: flex;
-}
-
 .wpp {
     width: 90px;
     position: fixed;

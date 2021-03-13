@@ -5,3 +5,10 @@ function cadastrado(){
     document.location.reload(true)
 
 }
+
+$(document).ready(function(){
+    $(".hamburguer").click(function(){
+        $(this).toggleClass("active");
+        $(".menu").toggleClass("active");
+    })
+});
