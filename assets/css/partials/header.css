@@ -15,7 +15,6 @@
 .hamburguer {
     width: 40px;
     height: 40px;
-    border-radius: 10%;
     position: relative;
     cursor: pointer;
     display: none;
@@ -54,7 +53,7 @@
 }
 
 #hamburguer:checked ~ label .hamburguer::before {
-    transform: rotate(-405deg);
+    transform: rotate(-770deg);
     width: 70%;
     height: 10%;
     top: 45%;
