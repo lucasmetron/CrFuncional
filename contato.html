@@ -23,28 +23,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap" rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
 </head>
 
 
 <body>
     <div id="tela" class="conteiner">
 
-        <header class="navBar">
-            <div class="logoNav">
-                <a href="./index.html"><img src="assets/images/LOGO2_Prancheta_1.png" alt="Cross Fit"></a>
-            </div>
+        <header>
+            <div class="navBar">
+                <div class="logoNav">
+                    <a href="./index.html"><img src="assets/images/LOGO2_Prancheta_1.png" alt="Cross Fit"></a>
+                </div>
 
-            <div class="bar">
-                <nav>
-                    <ul>
-                        <li><a href="./index.html" class="active">SOBRE</a></li>
-                        <li><a href="./planos.html">PLANOS</a></li>
-                        <li><a href="./contato.html">CONTATO</a></li>
-                    </ul>
-                </nav>
+                <div class="bar">
+                    <nav>
+                        <input id="hamburguer" type="checkbox">
+                        <label for="hamburguer">
+                            <div class="hamburguer active"></div>
+                        </label>
+
+                        <ul class="menu active">
+                            <li><a href="./index.html">SOBRE</a></li>
+                            <li><a href="./planos.html">PLANOS</a></li>
+                            <li><a href="./contato.html">CONTATO</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </header>
-
 
         <section class="contato">
 
