@@ -44,7 +44,7 @@
     transition: 1s ease;
 }
 
-#hamburguer:checked ~ label .hamburguer::after {
+#hamburguer:checked~label .hamburguer::after {
     transform: rotate(225deg);
     width: 70%;
     height: 10%;
@@ -52,7 +52,7 @@
     left: 15%;
 }
 
-#hamburguer:checked ~ label .hamburguer::before {
+#hamburguer:checked~label .hamburguer::before {
     transform: rotate(-770deg);
     width: 70%;
     height: 10%;
@@ -95,41 +95,31 @@
 }
 
 @media screen and (max-width: 700px) {
+    .logoNav img {
+        width: 70px;
+    }
     .hamburguer {
         display: block;
         position: absolute;
-        top: 65px;
+        top: 45px;
         right: 65px;
         z-index: 999;
     }
-    
     .menu {
         position: absolute;
         top: 0;
         right: 0;
         z-index: 998;
-
         height: 100vh;
         background: #222;
         opacity: 0.8;
-
-        padding: 150px 20px;
-        
+        padding: 100px 20px 0;
         flex-direction: column;
-
-        transition: .5s ease;
-        
+        transition: 0.5s ease;
         display: block;
     }
-
     .menu.active {
         right: -100%;
         display: none;
     }
-    
-}
-
-@media screen and (max-width: 550px) {
-    .logoNav img {
-        width: 90px;
 }
