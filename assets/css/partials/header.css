@@ -119,7 +119,7 @@
 
         transition: .5s ease;
 
-        /* display: none; */
+        display: none;
     }
 
     .menu.active {
