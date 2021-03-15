@@ -123,9 +123,8 @@
         display: none;
     }
 }
-
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
     .menu {
-        height: 740px;
+        height: 750px;
     }
 }
