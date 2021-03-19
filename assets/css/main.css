@@ -48,9 +48,8 @@ body {
     }
 
     body {
-
+        overflow: hidden scroll;
         background-position-x: -600px;
-
     }
 
 }
