@@ -120,7 +120,6 @@
     }
     .menu.active {
         right: -100%;
-        display: none;
     }
 }
 @media screen and (max-width: 400px) {
