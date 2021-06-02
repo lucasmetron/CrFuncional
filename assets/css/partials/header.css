@@ -96,13 +96,13 @@
 
 @media screen and (max-width: 700px) {
     .logoNav img {
-        width: 70px;
+        width: 80px;
     }
     .hamburguer {
         display: block;
         position: absolute;
         top: 45px;
-        right: 65px;
+        right: 55px;
         z-index: 999;
     }
     .menu {
@@ -120,6 +120,10 @@
     }
     .menu.active {
         right: -100%;
-        display: none;
+    }
+}
+@media screen and (max-width: 400px) {
+    .menu {
+        height: 750px;
     }
 }
